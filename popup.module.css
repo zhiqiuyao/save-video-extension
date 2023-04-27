@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 300px;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+a,
+a:hover,
+a:active,
+a:focus,
+a:visited {
+    color: #1890ff;
+    text-decoration: none;
+}
+
+.title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
